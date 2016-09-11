@@ -1,0 +1,30 @@
+What can we use JavaScript for? 
+—  make websites respond to user interaction
+—  build apps and games (e.g. blackjack)
+
+—  access information on the Internet (e.g. find out the top trending words on Twitter by topic)
+
+—  organize and present data (e.g. automate spreadsheet work; data visualization)
+
+-------------------------------------------------------------------------------------------
+"Raghav".length // Gives the length of the name "Raghav"
+'//' is the comment line for js
+3+4 // Arithmetic calculation can be done
+confirm('This is an example of using JS to create some interaction on a website. Click OK to continue!'); // For interactive website
+confirm("I feel awesome!");
+------------------------------------------------------------------------------------------------
+
+What is programming?
+
+
+Programming is like writing a list of instructions to the computer so it can do cool stuff with your information.
+
+Programs can't yet make your bed, but they can do math, keep track of your bank account, or send a message to a friend.
+
+To do any of these actions, the program needs an input. You can ask for input with a prompt. 
+
+Examples:
+
+ 1. prompt("What is your name?"); //Asks for input
+ 2. prompt("What is Ubuntu?"); //Asks for input
+----------------------------------------------------------------------------------------------------
