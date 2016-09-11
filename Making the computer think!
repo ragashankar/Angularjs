@@ -1,0 +1,36 @@
+Using console.log
+You may have noticed that the interpreter doesn't print out every single thing it does. So if we want to know what it's thinking, we sometimes have to ask it to speak to us.
+
+console.log() will take whatever is inside the parentheses and log it to the console below your code—that's why it's called console.log()!
+
+This is commonly called printing out
+
+console.log(2*5) // Prints 10
+console.log("Hello") // Prints Hello
+
+Comparison :
+// Here is an example of using the greater than (>) operator.
+console.log(15 > 4); // 15 > 4 evaluates to true, so true is printed.
+
+// Fill in with >, <, === so that the following print out true:
+console.log("Xiao Hui".length < 122); prints true
+console.log("Goody Donaldson".length >= 8); prints true
+console.log(8*2 === 16); prints true
+
+Condtition:
+
+if ( "Raghavendran Shankar".length > 7 ) {
+    console.log("You have a long name" );
+}
+
+if else:
+
+if ( "Raghavendran Shankar".length <= 7) 
+{
+    console.log("Let's go down the first road!");
+}
+else 
+{
+     console.log("Your name is way too large");
+    
+}
