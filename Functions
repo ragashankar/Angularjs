@@ -1,0 +1,49 @@
+Greeting message:
+
+var greeting = function (name) {
+    console.log("Great to see you," + " " + name);
+};
+
+// On line 11, call the greeting function!
+greeting('Raghav');
+
+---------------------------------------------------------------------
+What U wanna eat ? - Function
+
+var foodDemand = function(food){
+    console.log("I want to eat"+" "+food);
+};
+
+foodDemand('curd');
+
+-------------------------------------------------------------------
+Tying it all together
+Why is the code organized like it is on lines 2-5?
+
+The computer can understand the code without such spacing. But it makes editing a lot easier and is best practice.
+
+Do I have to put a semi-colon at the end of each line of code in the reusable block? And at the end of the entire function?
+
+Yes. At the end of each line of code (within the { }) and after the entire function (after the { }), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
+
+------------------------------------------------------------------
+Cost of 5 oranges : Here the cost varies
+
+var orangeCost = function(cost){
+    var orange_five = cost *5;
+    return(orange_five);
+};
+
+orangeCost(5);
+orangeCost(6);
+----------------------------------------------------------------------
+Return function:
+
+// Parameter is a number, and we do math with that parameter
+var timesTwo = function(number) {
+    return number * 2;
+};
+
+// Call timesTwo here!
+var newNumber = timesTwo(6);
+console.log(newNumber);
