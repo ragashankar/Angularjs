@@ -28,3 +28,6 @@ Examples:
  1. prompt("What is your name?"); //Asks for input
  2. prompt("What is Ubuntu?"); //Asks for input
 ----------------------------------------------------------------------------------------------------
+"I'm coding like a champ".length > 10 // Compares the length of the string and returns true or false depending on the condition.
+                                      //Here it reurns true
+ 
