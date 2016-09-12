@@ -51,3 +51,33 @@ timesTwo(7);
 
 console.log("Outside the function my_number is: ")
 console.log(my_number);
+
+---------------------------------------------------------------------------------------------------------------------------
+Rock, Paper, Scissors
+
+var Game = function(User,Comp)
+{
+    //User = prompt("Choose the User outcome");
+    //Comp = prompt("Choose the Comp outcome");
+    if (User === 'Rock'){
+        if(Comp=== 'Scissors'){
+            console.log('User wins');
+        } else if(Comp== 'Paper') {
+            console.log('Comp wins');
+        }
+    } else if(User=== 'Paper') {
+        if(Comp==='Scissors'){
+            console.log('Comp wins');
+        } else if(Comp==='Rock'){
+            console.log('User wins');
+        }
+    } else if(User==='Scissors'){
+        if(Comp==='Paper'){
+            console.log("User wins");
+        } else if(Comp==='Rock'){
+            console.log("Comp wins");
+        }
+    }
+};
+
+Game('Scissors','Rock');
