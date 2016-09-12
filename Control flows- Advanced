@@ -1,0 +1,19 @@
+# To find out whether the value inoutted is a number and whether is divisible by 2 
+
+var isEven = function(number) {
+  // Your code goes here!
+if(isNaN(number)===true){
+    return "Not a number";
+    }
+else if(number % 2 === 0){
+    return(true);
+    
+} else if(number % 2 !== 0){
+    return(false);
+}  
+
+};
+
+isEven(7);
+
+--------------------------------------------------
