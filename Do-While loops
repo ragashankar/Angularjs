@@ -1,0 +1,13 @@
+var getToDaChoppa = function(){
+  // Write your do/while loop here!
+  var i = true;
+  do {
+      console.log("This is def gonna print");
+      i = false;
+  } 
+  while(i);
+};
+
+getToDaChoppa();
+
+----------------------------------------------------------------------------------------------------------------------------
