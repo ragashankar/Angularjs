@@ -1,0 +1,14 @@
+Function used in another statement like 'if':
+
+var quarter = function(number){
+    return(number/4);
+};
+
+
+
+if (quarter(24) % 3 === 0 ) {                           // I have given the parameter val of number as 24
+  console.log("The statement is true");
+} else {
+  console.log("The statement is false");
+}
+-------------------------------------------------------------------------------------------
