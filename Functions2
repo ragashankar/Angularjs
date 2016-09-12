@@ -12,3 +12,42 @@ if (quarter(24) % 3 === 0 ) {                           // I have given the para
   console.log("The statement is false");
 }
 -------------------------------------------------------------------------------------------
+Perimeter of a box :  Fn with 2 args
+// Write your function starting on line 3
+
+var perimeterBox = function(length,width){
+    var perm = 2 * (length+width);
+    return(perm)
+}
+
+perimeterBox(2,4)
+
+-----------------------------------------------------------------------------------------
+Scope of variables
+
+var my_number = 7; //this has global scope
+
+var timesTwo = function(number) {
+  my_number = number * 2;           // var is not used, so both this value inside and the val outside will be 14
+    console.log("Inside the function my_number is: ");
+    console.log(my_number);
+}; 
+
+timesTwo(7);
+
+console.log("Outside the function my_number is: ")
+console.log(my_number);
+
+
+var my_number = 7; //this has global scope
+
+var timesTwo = function(number) {
+ var my_number = number * 2;        // var is used, so this val is 14 but the outside val will remain 7.
+    console.log("Inside the function my_number is: ");
+    console.log(my_number);
+}; 
+
+timesTwo(7);
+
+console.log("Outside the function my_number is: ")
+console.log(my_number);
