@@ -14,3 +14,20 @@ console.log("Heads flipping!");
 }
 console.log("Done!Tails flipping");
 ----------------------------------------------------------------------------------
+Diff b/w for loops and while loops
+As we mentioned, for loops are great for doing the same task over and over when you know ahead of time how many times you'll have to repeat the loop. On the other hand, while loops are ideal when you have to loop, but you don't know ahead of time how many times you'll need to loop.
+
+var arr = ['starks','lannis','targy','baratheon'];
+
+for(var i = 0; i < arr.length; i++)
+{
+    console.log(arr[i]);
+}
+
+var j=0;
+
+while(j < arr.length)
+{
+    console.log(arr[j]);
+    j++;
+}
