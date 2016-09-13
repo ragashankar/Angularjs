@@ -1,0 +1,58 @@
+What is your fav character dialogue from Game of Thrones ?
+
+var charac = prompt("What's your favorite character dialogue?","Type your favorite dialogue here.");
+
+switch(charac) {
+  case 'Jon Snow':
+    console.log("Winter is coming!");
+    break;
+  case 'Tywrin':
+    console.log("Lannisters always pays his debts!");
+    break;
+  case 'Daenerys':
+    console.log("My reign has just begun!");
+    break;
+  default:
+  console.log("Sorry, what's that?...I don't watch Game of Thrones");
+  
+}
+------------------------------------------------------------------------------------------------------------
+What do u think about the courses ? 
+
+// JavaScript Document
+var course = prompt("What do you think about the below course?");
+switch(course){
+case 'DS':
+    console.log("Oh The"+" "+course+" course was basics of Data Science");
+    break;
+case 'BA':
+    console.log("The"+" "+course+" course was business-oriented");
+    break;
+case 'ST':
+    console.log("It's more of Adv statistics and R programming");
+    break;
+default:
+    console.log("Oops! I have no idea what you're talking about");
+}
+
+---------------------------------------------------------------------------------------------------------------
+What is your favourite candy ?
+
+var candy = prompt("What's your favorite candy?","Type your favorite candy here.");
+
+switch(candy) {
+  case 'licorice':
+    console.log("Gross!");
+    break;
+  case 'gum':
+    console.log("I like gum!");
+    break;
+  case 'beets':
+    console.log("...is that even a candy?");
+    break;
+  default:
+  console.log("super useful!");
+  
+}
+
+-------------------------------------------------------------------------------------------------------------
