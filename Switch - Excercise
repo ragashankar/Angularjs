@@ -1,0 +1,29 @@
+// How do you handle your problems?
+var user = prompt("How do you handle when you run into trouble?").toLowerCase();
+switch(user){
+    case 'good':
+        var think = prompt("Do you think fast?");
+        var action = prompt("Do you have a backup plan?");
+        if(action==='yes' || think==='yes'){
+            console.log("You will easily solve it since you're either think fast or have a backup plan or both!");
+        }else {
+            console.log("You don't handle well. Maybe try some other option");
+        }
+        break;
+    case 'bad':
+        var exec = prompt("Do you have a long term plan");
+        var force  = prompt("Are you planning to force your troubles to others?");
+        if(exec==='yes' || force==='yes'){
+            console.log("You can escape from the problem");
+        } else{
+            console.log("You are screwed");
+        }
+        break;
+    case 'best':
+        console.log("Huh! I can solve any problem");
+        break;
+    default:
+    console.log("Excuse me ! I have no idea what kinda trouble I got into!!");
+}
+
+        
