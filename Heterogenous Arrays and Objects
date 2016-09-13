@@ -41,3 +41,20 @@ var me = new Object();
 me["name"] = "Raghavendran Shankar";
 me["age"] = 25;
 me.gender = "Male";
+-----------------------------------------------------------
+Different ways to create objects : obj 1,2 and 3
+var object1 = {
+    clan : "stark",
+    alive : 3,
+    dead : 5
+};
+
+var object2 = new Object();
+object2.clan = "Lannister";
+object2["alive"] = 2;
+object2["dead"] = 4;
+
+var object3 = {};
+object3.clan = "Targareyan";
+object3.alive = 2;
+object3.dead = "Many";
