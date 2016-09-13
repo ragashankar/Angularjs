@@ -1,0 +1,45 @@
+//Do u like both js and learning?
+
+var iLoveJavaScript = true;
+var iLoveLearning = true ;
+
+if(iLoveJavaScript && iLoveLearning) {
+  // if iLoveJavaScript AND iLoveLearning:
+  console.log("Awesome! Let's keep learning!");
+} else if(!(iLoveJavaScript || iLoveLearning)) {
+  // if NOT iLoveJavaScript OR iLoveLearning:
+  console.log("Let's see if we can change your mind.");
+} else {
+  console.log("You only like one but not the other? We'll work on it.");
+}
+
+-----------------------------------------------------------------------------------------------
+Create two variables, tired and bored, and set one equal to true and the other equal to false. (It doesn't matter which is which.) Inside the nap function, create an if statement that returns true if either tired or bored (or both!) are true, and false otherwise.
+
+// Declare your variables here!
+var tired = true;
+var bored = false;
+
+var nap = function() {
+  // Add your if/else statement here!
+  if(tired || bored){
+      return(true)
+  } else{
+      return(false)
+  }
+};
+
+----------------------------------------------------------------------------------------------------
+Declare a variable called programming and set it to false. Then, write an if/else statement inside happy so that happy returns true if programming is false and false otherwise.
+
+// Declare your variables here!
+var programming = false;
+
+var happy = function() {
+  // Add your if/else statement here!
+  if(!programming){
+    return(true)
+  } else{
+      return(false)
+  }
+};
