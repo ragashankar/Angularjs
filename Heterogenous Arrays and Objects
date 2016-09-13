@@ -29,3 +29,15 @@ phonebookEntry.phone = function() {
 };
 
 phonebookEntry.phone();
+----------------------------------------------------------------------------------------------------------------------------------
+// Create an obj named 'me' and give key as name and age with respective values of ur name and age.
+var me = {
+    name: "Raghavendran SHankar",
+    age: 25
+};
+--------------------------------------------------
+Create obj using constructor
+var me = new Object();
+me["name"] = "Raghavendran Shankar";
+me["age"] = 25;
+me.gender = "Male";
