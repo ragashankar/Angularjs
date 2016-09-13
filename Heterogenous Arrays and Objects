@@ -1,0 +1,31 @@
+var Array = [23,false,"starks"] // Array with diff datatype
+var newArray = [[1,2,3],[4,5,6],[7,8,9]]; // Two dimensional array
+--------------------------------------------------------------------------
+Jagged arrays
+Great work! That's a fine-looking multidimensional array you've got there. (Yours is nested once, so it's a two-dimensional array, but if you really wanted, you could put arrays inside arrays inside arrays for even more dimensions.)
+
+Sometimes you want arrays that aren't as nice and even as your 3 x 3 two-dimensional array: you may have three elements in the first row, one element in the second row, and two elements in the third row. JavaScript allows those, and they're called jagged arrays.
+
+var jagged = [[1,2],[3],[4,5,6,7]]
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+                                                                OBJECTS
+  Nouns and verbs together
+Let's go back to the analogy of computer languages being like regular spoken languages. In English, you have nouns (which you can think of as "things") and verbs (which you can think of as "actions"). Until now, our nouns (data, such as numbers, strings, or variables) and verbs (functions) have been separate.
+
+No longer!
+
+Using objects, we can put our information and the functions that use that information in the same place.
+
+You can also think of objects as combinations of key-value pairs (like arrays), only their keys don't have to be numbers like 0, 1, or 2: they can be strings and variables.
+
+
+var phonebookEntry = {};
+
+phonebookEntry.name = 'Oxnard Montalvo';
+phonebookEntry.number = '(555) 555-5555';
+phonebookEntry.phone = function() {
+  console.log('Calling ' + this.name + ' at ' + this.number + '...');
+};
+
+phonebookEntry.phone();
