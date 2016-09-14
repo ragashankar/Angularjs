@@ -58,3 +58,5 @@ var object3 = {};
 object3.clan = "Targareyan";
 object3.alive = 2;
 object3.dead = "Many";
+----------------------------------------------------------------------------------------------------------------------------------
+var myArray = [4,true,"GOT",obj = new Object()]; //Array with an object
