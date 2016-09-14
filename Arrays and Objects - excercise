@@ -1,0 +1,53 @@
+Make an array called newArray. It should be 2D (that is, it should contain two elements that, in turn, are arrays) and jagged (those two arrays should be of different lengths, like in the example above).
+
+The ultimate kicker? Make one of your inner arrays contain an object!
+
+var obj = {
+    name: 'Ragha',
+    age: 25
+};
+
+var newArray = [[1,2,3,4],[obj]];
+
+-------------------------------------------------------------------------------------------------------------------------
+Edititng an existing object:
+Add a key called interests to myObject. Give this key an array value (the array can contain whatever you like).
+
+var myObject = {
+  name: 'Eduardo',
+  type: 'Most excellent',
+  interests: [[1,2,3,4],['jing','juk']]
+  
+};
+---------------------------------------------------------------------------------------------------------------------------
+                                                      BUILDING CONTACT LIST
+  var friends = new Object();
+friends.bill = new Object();
+friends.steve = new Object();
+
+friends.bill.firstName = 'Bill';
+friends.steve.firstName = 'Steve';
+friends.bill.lastName = 'brown';
+friends.steve.lastname = 'benjamin';
+friends.bill.number = '906-275-9935';
+friends.steve.number = '906-275-1477';
+friends.bill.address =['1907 Apt. E','Woodmar Dr','MI','49931'];
+friends.steve.address = ['1908 Apt. B','Woodmar Dr','MI','49931'];
+
+var list = function(obj){
+    for(i in obj){
+        console.log(i);
+    }
+};
+
+var search = function(name){
+    for (j in friends){
+        if(friends[j].firstName == name){
+            console.log(friends[j]);
+            return(friends[j]);
+        }
+    }
+};
+
+list(friends);
+search("Steve");
